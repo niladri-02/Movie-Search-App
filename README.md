@@ -34,49 +34,38 @@ Create a `.env` file in your project root and add your TMDB API key:
 ```bash
 VITE_KEY=your_tmdb_api_bearer_token_here
 ```
-🧩 Installation & Setup
+## 🧩 Installation & Setup
 
 Clone the repository and install dependencies:
-
+```bash
 git clone https://github.com/your-username/moviesearch-app.git
 cd moviesearch-app
 npm install
+```
 
-
-Start the development server:
-
+## Start the development server:
+```bash
 npm run dev
-
+```
 
 Then open your browser and visit:
-
+```bash
 http://localhost:5173/
-
-🧠 How It Works
+```
+## 🧠 How It Works
 
 On load → Fetches popular movies from TMDB.
-
 When the user searches → Fetches movies matching the query.
-
 Sort dropdown → Dynamically sorts results by popularity or release date.
 
-🌟 Example Sort Options
-Sort Option	Description
-popularity.desc	Most popular first
-popularity.asc	Least popular first
-release_date.desc	Newest movies first
-release_date.asc	Oldest movies first
-💅 UI Highlights
+- 💅 UI Highlights
+- 🎨 Gradient background (gray-900 → gray-700)
+- ✨ Smooth hover effects on movie cards
+- ⚙️ Animated search button with scale effect
+- 🧱 Responsive grid layout (2–4 columns)
 
-🎨 Gradient background (gray-900 → gray-700)
-
-✨ Smooth hover effects on movie cards
-
-⚙️ Animated search button with scale effect
-
-🧱 Responsive grid layout (2–4 columns)
-
-📚 Folder Structure
+## 📚 Folder Structure
+```bash
 moviesearch-app/
 │
 ├── src/
@@ -88,25 +77,22 @@ moviesearch-app/
 ├── package.json
 ├── vite.config.js
 └── README.md
-
-🤝 Contributing
+```
+## 🤝 Contributing
 
 Contributions are welcome!
 Feel free to fork the repository and submit a pull request with improvements or new features.
 
-🧾 License
+## 🧾 License
 
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute it with proper attribution.
 
-💖 Acknowledgements
+## 💖 Acknowledgements
 
 TMDB API
-
 Tailwind CSS
-
 React Icons
-
 Vite
 
 
